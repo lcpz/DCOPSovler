@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
 <agents>
-	<agent name="ADPOP" class="edu.cqu.algorithms.adpop.ADPOP" method="sync"></agent>
-	<agent name="ALS_DSA" class="edu.cqu.algorithms.DSA.DsaAlsAgent" method="sync"/>
+	<agent name="ADPOP" class="edu.cqu.algorithms.adpop.ADPOP" method="SYNC"></agent>
+	<agent name="ALS_DSA" class="edu.cqu.algorithms.DSA.DsaAlsAgent" method="SYNC"/>
 	<agent name="MaxsumAls" class="edu.cqu.algorithms.maxsum.MaxsumAlsAgent" method="SYNC"/>
 	<agent name="MaxsumADAls" class="edu.cqu.algorithms.maxsum.advp.MaxsumADAlsAgent" method="SYNC"/>
 	<agent name="MaxsumADVPAls" class="edu.cqu.algorithms.maxsum.advp.MaxsumADVPAlsAgent" method="SYNC"/>
